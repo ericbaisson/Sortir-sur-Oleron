@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sitemap.sortirsuroleron.fr/sitemap.xml
