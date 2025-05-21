@@ -1,5 +1,9 @@
 User-agent: *
+Disallow: /capture-decran
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*_n/
 Allow: /
 
-Sitemap: https://sitemap.sortirsuroleron.fr/sitemap.xml
+Sitemap: https://sortirsuroleron.fr/sitemap.xml
 
