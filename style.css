@@ -1,16 +1,8 @@
-body { font-family: sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
-header { background: #0078a8; color: white; text-align: center; padding: 1em 0; }
-header .logo { width: 80px; margin-top: 10px; }
-.banner h1 { margin: 0.5em 0 0 0; font-size: 1.8em; }
-.banner p { margin: 0; font-style: italic; }
-nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 1.5em; background: #005f80; margin: 0; }
-nav li { display: inline; }
-nav a { color: white; text-decoration: none; font-weight: bold; padding: 1em 0; display: block; }
-main { padding: 2em; }
-section { background: white; margin-bottom: 2em; padding: 1.5em; border-radius: 10px; box-shadow: 0 0 10px #ddd; }
-form input, form textarea { width: 100%; padding: 0.5em; margin: 0.5em 0; border-radius: 5px; border: 1px solid #ccc; }
-form button { background: #0078a8; color: white; border: none; padding: 0.7em 1.5em; border-radius: 5px; cursor: pointer; }
-form button:hover { background: #005f80; }
-.top { text-align: center; margin-top: 1em; }
-footer { text-align: center; font-size: 0.9em; color: #555; padding: 2em 0; }
-footer a { color: #0078a8; text-decoration: none; font-weight: bold; }
+body {
+  font-family: sans-serif;
+  background: #f0f9ff;
+  padding: 2em;
+}
+h1 {
+  color: #0078a8;
+}
