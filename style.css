@@ -1,8 +1,72 @@
 body {
-  font-family: sans-serif;
-  background: #f0f9ff;
+  font-family: system-ui, sans-serif;
+  background: #e9f5fb;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #007a8c;
+  padding: 1em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 50px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
   padding: 2em;
 }
-h1 {
-  color: #0078a8;
+section {
+  margin-bottom: 3em;
+  background: white;
+  border-radius: 16px;
+  padding: 1em;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+.fb-button {
+  display: inline-block;
+  background: #2d88ff;
+  color: white;
+  padding: 0.7em 1.2em;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input, textarea {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #007a8c;
+  color: white;
+  border: none;
+  padding: 0.7em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+footer {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
 }
